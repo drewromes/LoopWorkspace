@@ -257,6 +257,9 @@ jobs:
           # the final customization listed above CANNOT have a continuation character
           # more customizations can be pasted after this line
 
+          # Module: File: Update OmniBLE to insert an additional 1.0 units of insulin after insertion
+          curl https://github.com/drewromes/OmniBLE/commit/8f8c5397dcf1f163add78ef67c702a507a2057c7.patch | git apply -v --directory=OmniBLE
+
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables
         run: |
