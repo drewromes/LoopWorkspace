@@ -1,9 +1,8 @@
-From 8f8c5397dcf1f163add78ef67c702a507a2057c7 Mon Sep 17 00:00:00 2001
+From 380daf3ec652b9b30a97b35bb0464de90e72a9f0 Mon Sep 17 00:00:00 2001
 From: drewromes <92449491+drewromes@users.noreply.github.com>
-Date: Tue, 27 Oct 2026 23:58:38 -0400
-Subject: [PATCH] Extra 1.0 units of insulin at insertion
+Date: Wed, 28 Oct 2026 01:07:03 -0400
+Subject: [PATCH] Deliver extra 1.0 units upon insertion
 
-Deliver an extra 1.0 units of insulin on insertion after 0.5 units of cannula priming
 ---
  OmniBLE/OmnipodCommon/Pod.swift | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
