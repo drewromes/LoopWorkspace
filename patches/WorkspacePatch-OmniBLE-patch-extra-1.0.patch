@@ -7,10 +7,10 @@ Subject: [PATCH] Deliver extra 1.0 units upon insertion
  OmniBLE/OmnipodCommon/Pod.swift | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
 
-diff --git a/OmniBLE/OmniBLE/OmnipodCommon/Pod.swift b/OmniBLE/OmniBLE/OmnipodCommon/Pod.swift
+diff --git a/OmniBLE/OmnipodCommon/Pod.swift b/OmniBLE/OmnipodCommon/Pod.swift
 index 75db1abc..90fbea72 100644
---- a/OmniBLE/OmniBLE/OmnipodCommon/Pod.swift
-+++ b/OmniBLE/OmniBLE/OmnipodCommon/Pod.swift
+--- a/OmniBLE/OmnipodCommon/Pod.swift
++++ b/OmniBLE/OmnipodCommon/Pod.swift
 @@ -82,7 +82,7 @@ public struct Pod {
      // Checked to verify it agrees with value returned by pod during the pairing process.
      public static let cannulaInsertionUnits = 0.5
