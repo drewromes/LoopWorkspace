@@ -258,8 +258,8 @@ jobs:
           # more customizations can be pasted after this line
 
           # Module: File: Extra 0.5u of insulin at cannula insertion
-          curl https://github.com/drewromes/OmnipodKit-dr/commit/20f6ed2d1bb101615ad0a7058ae7dc0cceb762e2.patch | git apply -v --directory=OmnipodKit-dr
-
+          curl https://github.com/drewromes/OmnipodKit/commit/8f65985465a954b0cc929a76bbc66083153ba214.patch | git apply -v --directory=OmnipodKit
+          
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables
         run: |
