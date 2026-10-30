@@ -259,6 +259,9 @@ jobs:
 
           # Module: File: Extra 0.5u of insulin at cannula insertion
           curl https://github.com/drewromes/OmnipodKit/commit/8f65985465a954b0cc929a76bbc66083153ba214.patch | git apply -v --directory=OmnipodKit
+
+          # Module: File: Increase Duration of Insulin Action for rapid acting insulin (Novolog) and Fiasp from 360 to 420 min
+          curl https://github.com/drewromes/LoopKit/commit/3ccb0d9d8310a316a91b6f3c265480c9af003412.patch | git apply -v --directory=LoopKit
           
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables
